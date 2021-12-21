@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 975px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes banner {
+    0%,
+    20% {
+        background-image: url("https://live.staticflickr.com/65535/50544735806_dd39e95f06_h.jpg");
+    }
+    25%,
+    45% {
+        background-image: url("https://pressover.news/wp-content/uploads/2020/10/1366_2000.jpg");
+    }
+    50%,
+    70% {
+        background-image: url("https://www.pcspecialist.es/images/landing/pcs/gaming-pc/gaming_pc_headline.jpg");
+    }
+    75%,
+    100% {
+        background-image: url("https://powerups.es/wp-content/uploads/teclado-mecanico-o-membrana-1024x576.jpg");
+    }
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.info h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.info a {
+    color: #fff;
+    text-decoration: none;
+    background: #3088e0;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.neon {
+    color: #fff;
+    margin-top: 10%;
+    text-shadow: 0 0 5px rgba(0, 178, 255, 1), 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(38, 104, 127, 1), 0 0 80px rgba(38, 104, 127, 1), 0 0 90px rgba(38, 104, 127, 1), 0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1), 0 0 180px rgba(38, 104, 127, 1);
+}

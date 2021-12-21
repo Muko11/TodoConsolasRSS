@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>TodoConsolas</title>
+        <link>https://muko11.github.io/TodoConsolasHtmlCss/</link>
+        <description>Contenidos de noticias sobre gaming</description>
+        <author>Ángel Cadenas</author>
+        <language>es</language>
+        <image>
+            <title>RAZER</title>
+            <link>https://muko11.github.io/TodoConsolasHtmlCss/index.html</link>
+            <url>https://raw.githubusercontent.com/Muko11/TodoConsolasHtmlCss/master/Logo%20Mando.png</url>
+        </image>
+        <item>
+            <title>Mejores periféricos RAZER</title>
+            <link>https://muko11.github.io/TodoConsolasHtmlCss/W1.html</link>
+            <description>Descubre los mejores periféricos Razer para gaming</description>
+            <pubDate>Tue, 21 Dec 2021 16:30:00</pubDate>
+            <category>Periféricos</category>
+        </item>
+        <item>
+            <title>Mejores PC Gaming y Laptops Gaming</title>
+            <link>https://muko11.github.io/TodoConsolasHtmlCss/W6.html</link>
+            <description>Descubre los mejores ordenadores para jugar de 2021</description>
+            <pubDate>Tue, 21 Dec 2021 16:30:00</pubDate>
+            <category>Ordenadores</category>
+        </item>
+    </channel>
+</rss>

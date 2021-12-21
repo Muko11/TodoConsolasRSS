@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="es-Es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="copyright" content="TodoConsolas">
+    <title>TodoConsolas</title>
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://images.vexels.com/media/users/3/153149/isolated/preview/1dbe90ba2f24289a1668a0dbc8150e2e-icono-de-trazo-de-color-de-gamepad.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="CSSW3.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <img src="https://images.vexels.com/media/users/3/153149/isolated/preview/1dbe90ba2f24289a1668a0dbc8150e2e-icono-de-trazo-de-color-de-gamepad.png" alt="Logo">
+        <br />
+        <div class="buscar">
+
+            <input type="text" placeholder="Buscar" required>
+            <div class="btn">
+                <i class="fas fa-search icon"></i>
+            </div>
+        </div>
+        <h1 class="titulo1">ADÉNTRATE EN TODOCONSOLAS</h1>
+        <br />
+        <hr>
+        <br />
+        <h2>Toda la información que necesitas sobre consolas, videojuegos, periféricos y más</h2>
+        <br />
+    </header>
+
+    <nav class="MenuHorizontal">
+        <a href="W1.html">Inicio</a>
+        <a href="https://www.playstation.com/en-us/ps5/">PlayStation5</a>
+        <a href="https://www.playstation.com/es-es/ps4/">PlayStation4</a>
+        <a href="https://www.xbox.com/es-ES/consoles?xr=shellnav">XboxOne</a>
+        <a href="https://www.nintendo.es/">Switch</a>
+        <a href="https://www.pccomponentes.com/ordenadores">PC</a>
+    </nav>
+
+    <br />
+
+    <aside class="MenuVertical">
+        <a href="W5.html">Videojuegos</a>
+        <a href="W6.html">Ordenadores</a>
+        <a href="W7.html">Monitores</a>
+        <a href="W8.html">Cascos</a>
+        <a href="W9.html">Teclados y ratones</a>
+        <a href="W2.html">Suscripción</a>
+    </aside>
+    <br /><br />
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp; Rellene los datos para confirmar la suscrpción PRO</h3>
+    <br /><br /><br /><br />
+    <div style="text-align: center; margin: 0 auto;">
+        <form action="agente.php">
+            <label for="idnombre"><b>Nombre:</b></label>
+            <input type="text" id="idnombre" name="nombre" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="idapellido"><b>Apellidos:</b></label>
+            <input type="text" id="idapellido" name="apellido" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="idmasculino" name="genero" />
+            <label for="idmasculino"><b> Sexo M</b></label>
+            <input type="radio" id="idfemenino" name="genero" />
+            <label for="idfemenino"><b>Sexo F</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="fecha_dia"><b>Fecha de nacimiento</b></label>
+            <input type="text" size="1" maxlength="1" id="fecha_dia" name="fecha_dia" />
+            <select id="fecha_mes" name="fecha_mes">
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+            <input type="text" size="2" maxlength="1" id="fecha_ano" name="fecha_ano" />
+        </form>
+        <br /><br /><br /><br />
+        <label for="idnombre"><b>País:</b></label>
+        <input type="text" id="idPais" name="País" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="idnombre"><b>Provincia:</b></label>
+        <input type="text" id="idProvincia" name="Provincia" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="idnombre"><b>Código Postal:</b></label>
+        <input type="text" id="idCodigo" name="Código Postal" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br /><br /><br /><br />
+
+        <label for="idnombre"><b>Calle:</b></label>
+        <input type="text" id="idCalle" name="Calle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="idnombre"><b>Bloque:</b></label>
+        <input type="text" id="idBloque" name="Bloque" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="idnombre"><b>Escalera:</b></label>
+        <input type="text" id="idEscalera" name="Escalera" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="idnombre"><b>Puerta:</b></label>
+        <input type="text" id="idPuerta" name="Puerta" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <br /><br /><br /><br />
+        <p style="color: #fff;"><b>Escoge un método de pago:</b></p>
+        <br />
+        <form method="post" action="agente.php">
+            <table style="margin: 0 auto;">
+                <tbody>
+                    <tr>
+
+                        <th>
+                            <input type="checkbox" /> PayPal<br /><br />
+                            <input type="checkbox" /> MasterCard<br /><br />
+                            <input type="checkbox" /> VISA<br /><br />
+                            <input type="checkbox" /> Cuenta Bancaria &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </th>
+
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br /><br />
+            <p style="color: #fff;"><b>Escoge el tipo de Suscripción PRO:</b></p><br />
+            <table style="margin: 0 auto;">
+                <tbody>
+                    <tr>
+                        <th>
+                            <input type="checkbox" /> Suscripción PRO normal (1 año) = 29.99€<br /><br />
+                            <input type="checkbox" /> Suscripción PRO normal (2 años) = 45.99€<br /><br />
+                            <input type="checkbox" /> Suscripción PRO SUPREME (3 años) = 60.99€<br /><br />
+                            <input type="checkbox" /> Suscripción PRO DELUXEE (5 años) = 89.99€
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </form>
+        <br /><br /><br /><br />
+        <p style="color: #fff;"><b>Nos interesa saber el motivo de haber escogido la Sucripción PRO</b></p><br /><br />
+
+        <textarea cols="50" rows="2"></textarea>
+        <br /><br /><br />
+        <form method="post" action="agente.php">
+            <a href="W4.html" class="botón">Enviar</a>
+            <a href="W3.html" class="botón">Restablecer</a>
+        </form>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="https://images.vexels.com/media/users/3/153149/isolated/preview/1dbe90ba2f24289a1668a0dbc8150e2e-icono-de-trazo-de-color-de-gamepad.png" alt="Logo de TodoConsolas">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos expertos en videojuegos, consolas, pc, periféricos y todo lo relacionado con el gaming</p>
+                <p>¿A qué esperas? Adentrate y conoce lo que nunca te han contado del gaming y de las mejores ofertas</p>
+                <p>En todo consolas estamos dispuestos a ayudarte a encontrar lo que buscas. Puedes contactar con nosotros mediante las redes sociales</p>
+                <p>No lo dudes. Aprovecha la oportunidad y no la dejes escapar</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/muco.fijo/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.instagram.com/angel_cad03/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/muco11fn" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/channel/UCVqVlZdQPxpCKzj_rCrZXcQ" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>TodoConsolas</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
